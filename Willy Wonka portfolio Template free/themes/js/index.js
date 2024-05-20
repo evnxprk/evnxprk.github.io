@@ -190,3 +190,26 @@ $(function(){
   $('.navigation-close').hover(cursorhover,cursor);
 
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the popup element
+  var popup = document.getElementById("popup");
+
+  // Add event listener to the body, listen for clicks
+  document.body.addEventListener("click", function (event) {
+    // Check if the click happened outside of the home page content
+    if (!event.target.closest("#all")) {
+      // If clicked outside of the home page content, show the popup
+      popup.style.display = "block";
+    }
+  });
+
+  // Add event listener to the popup, listen for clicks
+  popup.addEventListener("click", function (event) {
+    // Check if the clicked element is the popup itself
+    if (event.target === popup) {
+      // If clicked on the popup itself, hide the popup
+      popup.style.display = "none";
+    }
+  });
+});
