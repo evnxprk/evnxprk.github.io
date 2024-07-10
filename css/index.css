@@ -910,7 +910,7 @@ padding-bottom: 40px;
     width: 100%;
     color:whitesmoke;
 }
-.blog-header{
+.experience-header{
     height: auto;
     width: 100%;
     text-align: center;
@@ -955,20 +955,20 @@ padding-bottom: 40px;
     transition:  scale .4s ease;
 }
 
-#blog{
+#experience{
     background: #101010;
     display: none;
     color:whitesmoke;
     width: 100%;
     height: auto;
 }
-.blog-content{
+.experience-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
-.blogs{
+.experience{
     height: 420px;
     width: 40%;
     margin: 20px;
@@ -976,14 +976,14 @@ padding-bottom: 40px;
     position: relative;
     overflow: hidden;
 }
-.blogs .img{
+.experience .img{
     height: 80%;
     width: 100%;
     overflow: hidden;
     transition: all .65s ease;
     position: relative;
 }
-.blog-date{
+.experience-date{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -998,12 +998,12 @@ padding-bottom: 40px;
     width: 25%;
     height: auto;
 }
-.blogs .img img{
+.experience .img img{
     height: 100%;
     width: 100%;
     transition: all .65s ease;
 }
-.blog-text{
+.experience-text{
   height: 80%;
   width: 100%;
   text-align: center;
@@ -1013,14 +1013,14 @@ padding-bottom: 40px;
   background-color: #050505;
   transition: all .5s ease;
 }
-.blog-text h3{
+.experience-text h3{
   font-size: 28px;
   font-weight: 500;
   height: 20%;
   padding: 20px;
   letter-spacing: 1px;
 }
-.blog-text p{
+.experience-text p{
     font-size: 18px;
     opacity: .9;
     font-weight: 400;
@@ -1028,13 +1028,13 @@ padding-bottom: 40px;
     padding: 30px;
     letter-spacing: 1px;
   }
-.blogs:hover .img{
+.experience:hover .img{
       transform: translateY(-70%);
   }
-.blogs:hover .blog-text{
+.experience:hover .experience-text{
     transform: translateY(-70%);
 }
-.blogs a{
+.experience a{
     text-decoration: none;
     color: whitesmoke;
 }
@@ -1589,7 +1589,7 @@ For devices with smaller width like mobile phone
                 transition: all .4s ease;
                 display: none;
             }
-            .blogs{
+            .experience{
                 height: auto;
                 width: 90%;
                 margin: 10px;
@@ -1597,14 +1597,14 @@ For devices with smaller width like mobile phone
                 margin-bottom: 20px;
                 position: relative;
             }
-            .blogs .img{
+            .experience .img{
                 height: 80%;
                 width: 100%;
                 overflow: hidden;
                 transition: all .65s ease;
                 position: relative;
             }
-            .blog-date{
+            .experience-date{
                 position: absolute;
                 left: 0;
                 bottom: 0;
@@ -1617,12 +1617,12 @@ For devices with smaller width like mobile phone
                 width: 35%;
                 height: auto;
             }
-            .blogs .img img{
+            .experience .img img{
                 height: 100%;
                 width: 100%;
                 transition: all .65s ease;
             }
-            .blog-text{
+            .experience-text{
               height: auto;
               width: 100%;
               text-align: center;
@@ -1632,14 +1632,14 @@ For devices with smaller width like mobile phone
               background-color: #000000;
               transition: all .5s ease;
             }
-            .blog-text h3{
+            .experience-text h3{
               font-size: 24px;
               font-weight: 200;
               height: 15%;
               padding: 10px;
               letter-spacing: 1px;
             }
-            .blog-text p{
+            .experience-text p{
                 font-size: 15px;
                 opacity: .9;
                 font-weight: 200;
@@ -1647,10 +1647,10 @@ For devices with smaller width like mobile phone
                 padding: 20px;
                 letter-spacing: 1px;
               }
-            .blogs:hover .img{
+            .experience:hover .img{
                   transform: translateY(0%);
               }
-            .blogs:hover .blog-text{
+            .experience:hover .experience-text{
                 transform: translateY(0%);
             }
             .contact-content{
@@ -2082,71 +2082,7 @@ for tabs and large phones
                 opacity: .8;
                 transition: all .4s ease;
             }
-            .blogs{
-                height: auto;
-                width: 75%;
-                margin: 10px;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                position: relative;
-            }
-            .blogs .img{
-                height: 60%;
-                width: 100%;
-                overflow: hidden;
-                transition: all .65s ease;
-                position: relative;
-            }
-            .blog-date{
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                color: whitesmoke;
-                font-size: 18px;
-                text-align: center;
-                font-weight: 400;
-                font-family: poppins;
-                padding: 3px;
-                width: 35%;
-                height: auto;
-            }
-            .blogs .img img{
-                height: 100%;
-                width: 100%;
-                transition: all .65s ease;
-            }
-            .blog-text{
-              height: auto;
-              width: 100%;
-              text-align: center;
-              vertical-align: center;
-              font-family: poppins;
-              color: whitesmoke;
-              background-color: #050505;
-              padding: 10px;
-              transition: all .5s ease;
-            }
-            .blog-text h3{
-              font-size: 28px;
-              font-weight: 200;
-              height: 15%;
-              padding: 10px;
-              letter-spacing: 1px;
-            }
-            .blog-text p{
-                font-size: 17px;
-                opacity: .9;
-                font-weight: 200;
-                height: 85%;
-                padding: 20px;
-                letter-spacing: 1px;
-              }
-            .blogs:hover .img{
-                  transform: translateY(0%);
-              }
-            .blogs:hover .blog-text{
-                transform: translateY(0%);
-            }
+            
             .contact-content{
                 width: 90%;
                 margin: auto;
@@ -2389,71 +2325,49 @@ for tabs and large phones
         font-size: 18px;
         opacity: .8;
     }
-    .blogs{
-        height: 420px;
-        width: 30%;
-        margin: auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
+    .experience{
+        height:400px;
+        width:28%;
+        margin: 1.5%;
+        padding: 10px;
+        background-color: #191919;
+        display: inline-block;
+        box-shadow:0px 0px 25px rgb(0,0,0,.05);
         position: relative;
-        overflow: hidden;
-    }
-    .blogs .img{
-        height: 80%;
-        width: 100%;
-        overflow: hidden;
-        transition: all .65s ease;
-        position: relative;
-    }
-    .blog-date{
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        color: whitesmoke;
-        font-size: 18px;
         text-align: center;
-        font-weight: 400;
-        font-family: poppins;
-        padding: 3px;
-        width: 25%;
-        height: auto;
+        z-index: 2;
+        border-radius: 10px;
+        overflow: hidden;
+        animation: opacity 1.4s ease ;
     }
-    .blogs .img img{
-        height: 100%;
-        width: 100%;
-        transition: all .65s ease;
+    .experience-img{
+        text-align: center;
     }
-    .blog-text{
-      height: 80%;
-      width: 100%;
-      text-align: center;
-      vertical-align: center;
-      font-family: poppins;
-      color: whitesmoke;
-      background-color: #050505;
-      transition: all .5s ease;
+    
+    .experience-img img{
+        display: inline-block;
+        z-index: 2;
+        position: relative;
+        margin: 20px;
+        border-radius: 30%;
+        padding: 10px;
+        height:120px;
+        transition: all .8s ease;
     }
-    .blog-text h3{
-      font-size: 28px;
-      font-weight: 500;
-      height: 20%;
-      padding: 20px;
-      letter-spacing: 1px;
+    .experience-description h2{
+        padding: 10px;
+        margin: 5px;
+        font-weight: 200;
+        font-size: 32px;
     }
-    .blog-text p{
+    .experience-description p{
+        padding: 10px;
+        font-weight: 200;
         font-size: 18px;
-        opacity: .9;
-        font-weight: 400;
-        height: 80%;
-        padding: 30px;
-        letter-spacing: 1px;
-      }
-    .blogs:hover .img{
-          transform: translateY(-70%);
-      }
-    .blogs:hover .blog-text{
-        transform: translateY(-70%);
+        opacity: .8;
     }
+    
+   
     .contact-header{
         height: auto;
         width: 100%;
